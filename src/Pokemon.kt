@@ -1,4 +1,4 @@
-fun main(){
+fun main() {
 
     val bulbasaur = mapOf(
         "PLANTA" to listOf("ÁGUA, TERRA, PEDRA"),
@@ -118,10 +118,10 @@ fun main(){
         "TERRA" to listOf("ELETRICO", "ACO", "VENENO", "PEDRA", "FOGO")
     )
     val clefairy = mapOf(
-        "FADA" to listOf("DRAGAO", "LUTADOR","SOMBRIO")
+        "FADA" to listOf("DRAGAO", "LUTADOR", "SOMBRIO")
     )
     val clefable = mapOf(
-        "FADA" to listOf("DRAGAO", "LUTADOR","SOMBRIO")
+        "FADA" to listOf("DRAGAO", "LUTADOR", "SOMBRIO")
     )
     val vulpix = mapOf(
         "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
@@ -131,11 +131,11 @@ fun main(){
     )
     val jigglypuff = mapOf(
         "NORMAL" to listOf(""),
-        "FADA" to listOf("DRAGAO", "LUTADOR","SOMBRIO")
+        "FADA" to listOf("DRAGAO", "LUTADOR", "SOMBRIO")
     )
     val wigglytuff = mapOf(
         "NORMAL" to listOf(""),
-        "FADA" to listOf("DRAGAO", "LUTADOR","SOMBRIO")
+        "FADA" to listOf("DRAGAO", "LUTADOR", "SOMBRIO")
     )
     val zubat = mapOf(
         "VENENO" to listOf("FADA", "PLANTA"),
@@ -161,7 +161,7 @@ fun main(){
         "INSETO" to listOf("PLANTA", "PSÍQUICO"),
         "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA")
     )
-    val  parasect = mapOf(
+    val parasect = mapOf(
         "INSETO" to listOf("PLANTA", "PSÍQUICO"),
         "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA")
     )
@@ -274,11 +274,11 @@ fun main(){
     )
     val magnemite = mapOf(
         "ELETRICO" to listOf("AGUA", "VOADOR"),
-        "ACO" to listOf("FADA","GELO", "PEDRA")
+        "ACO" to listOf("FADA", "GELO", "PEDRA")
     )
     val magneton = mapOf(
         "ELETRICO" to listOf("AGUA", "VOADOR"),
-        "ACO" to listOf("FADA","GELO", "PEDRA")
+        "ACO" to listOf("FADA", "GELO", "PEDRA")
     )
     val farfetchd = mapOf(
         "NORMAL" to listOf(""),
@@ -308,7 +308,7 @@ fun main(){
     val shellder = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA")
     )
-    val cloyster =  mapOf(
+    val cloyster = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA"),
         "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "PLANTA")
     )
@@ -369,7 +369,7 @@ fun main(){
     val lickitung = mapOf(
         "NORMAL" to listOf("")
     )
-    val  koffing = mapOf(
+    val koffing = mapOf(
         "VENENO" to listOf("FADA", "PLANTA")
     )
     val weezing = mapOf(
@@ -413,7 +413,7 @@ fun main(){
     )
     val mrMime = mapOf(
         "PSIQUICO" to listOf("LUTADOR", "VENENO"),
-        "FADA" to listOf("DRAGAO", "LUTADOR","SOMBRIO")
+        "FADA" to listOf("DRAGAO", "LUTADOR", "SOMBRIO")
     )
     val scyther = mapOf(
         "INSETO" to listOf("PLANTA", "PSÍQUICO"),
@@ -514,4 +514,60 @@ fun main(){
     val mew = mapOf(
         "PSIQUICO" to listOf("LUTADOR", "VENENO")
     )
+
+    val time_1 = mapOf (
+        1 to pikachu,
+        2 to charizard,
+        3 to alakazam,
+        4 to magmar,
+        5 to jolteon,
+        6 to caterpie,
+    )
+
+    val time_2 = mapOf (
+        1 to dragonaite,
+        2 to dragonair,
+        3 to mewtwo,
+        4 to spearow,
+        5 to blastoise,
+        6 to fearow,
+    )
+
+    println("1° Pokemon do time 1")
+    println(time_1[1]?.keys!!) // Tipo do Pokemon
+    println(time_1[1]?.values!!) // de quem ele perde
+
+    println("1° Pokemon do time 2")
+    println(time_2[1]?.keys!!) // Tipo do Pokemon
+    println(time_2[1]?.values!!) // de quem ele perde
+
+    // para c a comparação na hora da batalha, faça um FOR
+
+    println(bulbasaur["PLANTA"])
+    println(bulbasaur["VENENO"])
+
+    if (charmander.containsKey("PLANTA")) {
+        print("ELE É DO TIPO GRAMA!")
+    } else {
+        println("ele não é do tipo grama")
+    }
+
+    if (charmander["FOGO"]?.contains("PLANTA")!!) {
+        println("Ele é forte contra GRAMA")
+    } else {
+        println("Ele não é forte contra GRAMA")
+    }
+    for ((chave, valor) in mew){
+        println("A CHAVE É $chave -> o valor é $valor")
+}
+val carro = mapOf(
+    "PNEU" to 32,
+    "VOLANTE" to true,
+    "MOTOR" to 2.4,
+    "PLACA" to "AS123A",
+)
+    if ((caracteristica, descricao) in carro){
+
+
+}
 }
