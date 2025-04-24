@@ -566,7 +566,7 @@ val carro = mapOf(
     "MOTOR" to 2.4,
     "PLACA" to "AS123A",
 )
-    if ((caracteristica, descricao) in carro){
+   // if ((caracteristica, descricao) in carro){
 
 
 }
