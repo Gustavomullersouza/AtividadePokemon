@@ -1,26 +1,26 @@
 fun main() {
 
     val bulbasaur = mapOf(
-        "PLANTA" to listOf("ÁGUA, TERRA, PEDRA"),
-        "VENENO" to listOf("FADA, PLANTA")
+        "GRAMA" to listOf("ÁGUA, TERRA, PEDRA"),
+        "VENENO" to listOf("FADA, GRAMA")
     )
     val ivisaur = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val venousauro = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val charmander = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val charmeleon = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val charizard = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO"),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO"),
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val squirtle = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA")
@@ -32,38 +32,38 @@ fun main() {
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA")
     )
     val caterpie = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO")
     )
     val metapod = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO")
     )
     val butterfree = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO"),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO"),
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val weedle = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val kakuna = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val beedrill = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val pidgey = mapOf(
         "NORMAL" to listOf(""),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val pidgeotto = mapOf(
         "NORMAL" to listOf(""),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val pidgeot = mapOf(
         "NORMAL" to listOf(""),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val rattata = mapOf(
         "NORMAL" to listOf("")
@@ -73,17 +73,17 @@ fun main() {
     )
     val spearow = mapOf(
         "NORMAL" to listOf(""),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val fearow = mapOf(
         "NORMAL" to listOf(""),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val ekans = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val arbok = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val pikachu = mapOf(
         "ELETRICO" to listOf("AGUA", "VOADOR")
@@ -98,23 +98,23 @@ fun main() {
         "TERRA" to listOf("ELETRICO", "ACO", "VENENO", "PEDRA", "FOGO")
     )
     val nidoranFemea = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val nidorina = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val nidoqueen = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA"),
+        "VENENO" to listOf("FADA", "GRAMA"),
         "TERRA" to listOf("ELETRICO", "ACO", "VENENO", "PEDRA", "FOGO")
     )
     val nidoranMacho = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val nidorino = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val nidoking = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA"),
+        "VENENO" to listOf("FADA", "GRAMA"),
         "TERRA" to listOf("ELETRICO", "ACO", "VENENO", "PEDRA", "FOGO")
     )
     val clefairy = mapOf(
@@ -124,10 +124,10 @@ fun main() {
         "FADA" to listOf("DRAGAO", "LUTADOR", "SOMBRIO")
     )
     val vulpix = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val ninetales = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val jigglypuff = mapOf(
         "NORMAL" to listOf(""),
@@ -138,40 +138,40 @@ fun main() {
         "FADA" to listOf("DRAGAO", "LUTADOR", "SOMBRIO")
     )
     val zubat = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA"),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VENENO" to listOf("FADA", "GRAMA"),
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val golbat = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA"),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VENENO" to listOf("FADA", "GRAMA"),
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val oddish = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val gloom = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val vileplume = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val paras = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO"),
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO"),
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA")
     )
     val parasect = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO"),
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO"),
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA")
     )
     val venonat = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val venomoth = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val diglett = mapOf(
         "TERRA" to listOf("ELETRICO", "ACO", "VENENO", "PEDRA", "FOGO")
@@ -198,10 +198,10 @@ fun main() {
         "LUTADOR" to listOf("ACO", "PEDRA", "GELO", "NORMAL", "SOMBRIO")
     )
     val growlithe = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val arcanine = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val poliwag = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA")
@@ -231,24 +231,24 @@ fun main() {
         "LUTADOR" to listOf("ACO", "PEDRA", "GELO", "NORMAL", "SOMBRIO")
     )
     val bellsprout = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val weepinbell = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val victreebel = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val tentacool = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val tentacruel = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val geodude = mapOf(
         "TERRA" to listOf("ELETRICO", "ACO", "VENENO", "PEDRA", "FOGO"),
@@ -263,10 +263,10 @@ fun main() {
         "PEDRA" to listOf("FOGO", "VOADOR", "INSETO", "GELO")
     )
     val ponyta = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val rapidash = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val slowpoke = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA"),
@@ -282,47 +282,47 @@ fun main() {
     )
     val farfetchd = mapOf(
         "NORMAL" to listOf(""),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val doduo = mapOf(
         "NORMAL" to listOf(""),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val dodrio = mapOf(
         "NORMAL" to listOf(""),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val seel = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA"),
     )
     val dewgong = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA"),
-        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "PLANTA")
+        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "GRAMA")
     )
     val grimer = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val muk = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val shellder = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA")
     )
     val cloyster = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA"),
-        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "PLANTA")
+        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "GRAMA")
     )
     val gastly = mapOf(
         "FASTASMA" to listOf("PSIQUICO", "FASTASMA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val haunter = mapOf(
         "FASTASMA" to listOf("PSIQUICO", "FASTASMA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val gengar = mapOf(
         "FASTASMA" to listOf("PSIQUICO", "FASTASMA"),
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val onix = mapOf(
         "PEDRA" to listOf("FOGO", "VOADOR", "INSETO", "GELO"),
@@ -347,11 +347,11 @@ fun main() {
         "ELETRICO" to listOf("AGUA", "VOADOR")
     )
     val exeggcute = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
         "PSIQUICO" to listOf("LUTADOR", "VENENO")
     )
     val exeggutor = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA"),
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA"),
         "PSIQUICO" to listOf("LUTADOR", "VENENO")
     )
     val cubone = mapOf(
@@ -370,10 +370,10 @@ fun main() {
         "NORMAL" to listOf("")
     )
     val koffing = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val weezing = mapOf(
-        "VENENO" to listOf("FADA", "PLANTA")
+        "VENENO" to listOf("FADA", "GRAMA")
     )
     val rhyhorn = mapOf(
         "TERRA" to listOf("ELETRICO", "ACO", "VENENO", "PEDRA", "FOGO"),
@@ -387,7 +387,7 @@ fun main() {
         "NORMAL" to listOf("")
     )
     val tangela = mapOf(
-        "PLANTA" to listOf("ÁGUA", "TERRA", "PEDRA")
+        "GRAMA" to listOf("ÁGUA", "TERRA", "PEDRA")
     )
     val kangaskhan = mapOf(
         "NORMAL" to listOf("")
@@ -416,21 +416,21 @@ fun main() {
         "FADA" to listOf("DRAGAO", "LUTADOR", "SOMBRIO")
     )
     val scyther = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO"),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO"),
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val jynx = mapOf(
-        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "PLANTA"),
+        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "GRAMA"),
         "PSIQUICO" to listOf("LUTADOR", "VENENO")
     )
     val electabuzz = mapOf(
         "ELETRICO" to listOf("AGUA", "VOADOR")
     )
     val magmar = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val pinsir = mapOf(
-        "INSETO" to listOf("PLANTA", "PSÍQUICO")
+        "INSETO" to listOf("GRAMA", "PSÍQUICO")
     )
     val tauros = mapOf(
         "NORMAL" to listOf("")
@@ -440,11 +440,11 @@ fun main() {
     )
     val gyarados = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA"),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val lapras = mapOf(
         "AGUA" to listOf("FOGO", "TERRA", "PEDRA"),
-        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "PLANTA")
+        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "GRAMA")
     )
     val ditto = mapOf(
         "NORMAL" to listOf("")
@@ -459,7 +459,7 @@ fun main() {
         "ELETRICO" to listOf("AGUA", "VOADOR")
     )
     val flareon = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO")
     )
     val porygon = mapOf(
         "NORMAL" to listOf("")
@@ -488,16 +488,16 @@ fun main() {
         "NORMAL" to listOf("")
     )
     val articuno = mapOf(
-        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "PLANTA"),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "GELO" to listOf("VOADOR", "DRAGAO", "TERRA", "GRAMA"),
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val zapdos = mapOf(
         "ELETRICO" to listOf("AGUA", "VOADOR"),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val moltres = mapOf(
-        "FOGO" to listOf("PLANTA", "GELO", "INSETO", "AÇO"),
-        "VOADOR" to listOf("INSETO", "PLANTA", "LUTADOR")
+        "FOGO" to listOf("GRAMA", "GELO", "INSETO", "AÇO"),
+        "VOADOR" to listOf("INSETO", "GRAMA", "LUTADOR")
     )
     val dratini = mapOf(
         "DRAGAO" to listOf("DRAGAO")
@@ -515,59 +515,5 @@ fun main() {
         "PSIQUICO" to listOf("LUTADOR", "VENENO")
     )
 
-    val time_1 = mapOf (
-        1 to pikachu,
-        2 to charizard,
-        3 to alakazam,
-        4 to magmar,
-        5 to jolteon,
-        6 to caterpie,
-    )
 
-    val time_2 = mapOf (
-        1 to dragonaite,
-        2 to dragonair,
-        3 to mewtwo,
-        4 to spearow,
-        5 to blastoise,
-        6 to fearow,
-    )
-
-    println("1° Pokemon do time 1")
-    println(time_1[1]?.keys!!) // Tipo do Pokemon
-    println(time_1[1]?.values!!) // de quem ele perde
-
-    println("1° Pokemon do time 2")
-    println(time_2[1]?.keys!!) // Tipo do Pokemon
-    println(time_2[1]?.values!!) // de quem ele perde
-
-    // para c a comparação na hora da batalha, faça um FOR
-
-    println(bulbasaur["PLANTA"])
-    println(bulbasaur["VENENO"])
-
-    if (charmander.containsKey("PLANTA")) {
-        print("ELE É DO TIPO GRAMA!")
-    } else {
-        println("ele não é do tipo grama")
-    }
-
-    if (charmander["FOGO"]?.contains("PLANTA")!!) {
-        println("Ele é forte contra GRAMA")
-    } else {
-        println("Ele não é forte contra GRAMA")
-    }
-    for ((chave, valor) in mew){
-        println("A CHAVE É $chave -> o valor é $valor")
-}
-val carro = mapOf(
-    "PNEU" to 32,
-    "VOLANTE" to true,
-    "MOTOR" to 2.4,
-    "PLACA" to "AS123A",
-)
-   // if ((caracteristica, descricao) in carro){
-
-
-}
 }
