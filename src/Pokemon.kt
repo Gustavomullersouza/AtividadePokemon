@@ -515,5 +515,4 @@ fun main() {
         "PSIQUICO" to listOf("LUTADOR", "VENENO")
     )
 
-
 }
